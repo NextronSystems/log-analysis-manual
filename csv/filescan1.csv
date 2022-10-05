@@ -1,0 +1,15 @@
+Attribute;Question;Answer;Indication;Weight
+FILE;See chapter XYZ;;;
+MD5/SHA1/SHA256;See chapter xyz for generic checks on hashes;;;
+SIZE;Is the file size 0 bytes? (Probably reset by AV due to a detected infection);Yes;Good;High
+FIRSTBYTES;Do the fist bytes contain words in native language - e.g. @ECHO OFFECHO "Übertragung;Yes;Good;High
+;Do the first 20 bytes already contain executables or command line tools - e.g. "@echo off net user /domain >";Yes;Bad;Medium
+OWNER;Is the owner of the file a typical user account - e.g. DOM\user123;Yes;Good;Low
+;Is the owner of the file "BULTIN\Administrators";Yes;;
+;Does the owner string of the file contain "IIS" or another service name - e.g. "IIS_USRS, "tomcat", "apache";Yes;Bad;Medium
+TYPE;Does the type match the extension?;No;Bad;Low
+;Is the type EXE and the extension a benign looking one - e.g. ".txt" or ".pdf";Yes;Bad;Medium
+COMPANY;Does the company string from the PE header match the expected values - e.g. "cmd.exe" contains "Microsoft";No;Bad;Medium
+DESC;Does the description string from the PE header match the expected values - e.g. "sapgui.exe" contains "SAP GUI for Windows";No;Bad;Low
+CREATED/MODIFIED;Has the file been created very far in the past - e.g. time stamp shows 2021 and older;Yes;Good;Low
+;Has the file been modified on a Sunday (does not apply to regions were admins work on a Sunday for example);Yes;Bad;Medium

@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to THOR Log Analysis documentation!
-=========================================
+===========================================
 
 .. toctree::
    :maxdepth: 2

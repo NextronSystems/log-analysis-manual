@@ -1,0 +1,7 @@
+Attribute;Question;Answer;Indication;Weight
+REASON_1;Is the only REASON a file name pattern match (prone to false positives);Yes;Good;Low
+REASON_2;Is the file located in a personal user folder and does it look like that the user changed the extensiopn to avoid certain filter mechanisms - e.g. "Chrome-Portable.exe.txt");Yes;Good;Medium
+...;Does the Reason field report a file anomaly and the file is located in a backup folder from a very old version of Windows (or maybe a outdated version of the original program) - e.g. "F:WinNT35\..." or "C:\Program Files\NextGen Software\bin\javaw.exe";Yes;Good;Medium
+;Does the REASON report a suspicious, unsigned javaw.exe and is that file located in a folder of a software product (Rule: Javaws_Not_Verisign) - e.g. "C:\Program Files\IBM Backup Manager\bin\javaw.exe";Yes;Good;Medium
+;Rule starts with "VUL\_" reporting a vulnerability;Yes;Good;Medium
+;Does the rule match on a hack tool, which is installed in a typical location on disk or in a backup location - e.g. "ncat" in "/usr/bin/ncat" or "/backups/sys1/20171113/bin/ncat";Yes;Good;Medium
