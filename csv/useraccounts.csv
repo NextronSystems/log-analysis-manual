@@ -1,0 +1,5 @@
+Attribute;Question;Answer;Indication;Weight
+**MESSAGE**;Is the user name suspicious but plausible in the organization?;Yes;Good;Medium
+**MESSAGE**;Is the Guest account active although it shouldn't be?;Yes;Bad;High
+**MESSAGE**;Has the Guest account be added to the local Administrators?;Yes;Bad;High
+**MESSAGE**;Does the account activity happen in the given hot time frame?;Yes;Bad;Medium

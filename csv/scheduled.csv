@@ -1,0 +1,4 @@
+Attribute;Question;Answer;Indication;Weight
+**NAME**;Does the name look like a random value? (e.g. ``jd8slpk8d8``);Yes;Bad;High
+**NAME**;Does the name contain words in the local language? (e.g. ``Datensicherung``, ``copiar-datos-privados``);Yes;Good;High
+**LOCATION**;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;

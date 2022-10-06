@@ -1,0 +1,7 @@
+Attribute;Question;Answer;Indication;Weight
+**IP**;Is the IP known for malicious activity? (Check the platforms listed in chapter 33 `Tools for Event Analysis <file:///home/markusm/Documents/extern/redteampanda-ng/log-analysis-manual/_build/html/usage/tools.html#tools-for-event-analysis>`_);Yes;Bad;Medium
+;;No;Good;Medium
+**ENTRY**;Is the FQDN known for malicious activity?;Yes;Bad;Medium
+;;No;Good;Medium
+**TLD**;Seems the FQDN to be legitimate although it is registered under a suspicious TLD? (e.g. ``servftp.companyname.biz``, ``www2.companybranch.cn``);No;Bad;Medium
+;;Yes;Good;High 

@@ -1,0 +1,4 @@
+Attribute;Question;Answer;Indication;Weight
+**MESSAGE**;Does a new host file entry look legitimate?;Yes;Good;Medium
+**ENTRY**;Does the FQDN related to a server of a security software like an update server of an Antivirus server? (e.g. ``update1.f-secure.com``);Yes;Bad;Medium
+**IP**;Is the IP address not in a local network? (``10.0.0.0/8``, ``192.168.0.0/16``, ``172.16.0.0/12``);No;Bad;Medium

@@ -1,0 +1,11 @@
+Attribute;Question;Answer;Indication;Weight
+**COMMAND**;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;
+**RIP**;Is the remote IP (**RIP**) known for malicious activity? (Check the platforms listed in chapter 33 `Tools for Event Analysis <file:///home/markusm/Documents/extern/redteampanda-ng/log-analysis-manual/_build/html/usage/tools.html#tools-for-event-analysis>`_);Yes;Bad;Medium
+;;No;Good;Medium
+**RIP**;Does the remote IP lookup point to a service provider or branch office network? (e.g. stock exchange server range in a banking environment, travel data provider network in an aviation environment);Yes;Good;High
+**COUNTRY**;Is the endpoint in the given country plausible? (e.g. Web server and endpoint in Pakistan = website visitor);Yes;Good;Medium
+;;No;Bad;Medium
+**RPORT**;Does a Google search on the remote port show only suspicious, malware or hacking related results? (e.g. lookup for port ``4444``);Yes;Bad;High
+**LPORT/RPORT**;Does the remote port correspond with the local port and is this form of connection legitimate? (e.g. local port is ``22 (ssh)`` and remote port is ``14560``, local port is ``80 (http)`` and remote port is ``34283``);Yes;Good;Medium
+**LPORT/RPORT**;Does the remote port correspond with the local port and is this form of connection suspicious? (e.g. remote port is ``4444``, remote port is ``22/tcp (ssh)`` and outgoing SSH is ``forbidden``);Yes;Bad;Medium
+**LIP/RIP**;Is the remote system a system in a public IP range that is not related to the company and is the local system an internal system that shouldn't communicate with the Internet directly?;Yes;Bad;High
