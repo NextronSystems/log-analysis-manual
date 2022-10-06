@@ -1,7 +1,7 @@
 Registry
 ========
 
-Registry matches can be caused by different signature types: File name IOCs, keywords or YARA signatures matches.
+**Registry** matches can be caused by different signature types: File name IOCs, keywords or YARA signatures matches.
 
 Samples
 -------
@@ -17,9 +17,9 @@ Samples
 Typical False Positives
 -----------------------
 
-* Values with system files in rare locations (e.g. backup locations: "\\backupserv\sysbackup20171119\Windows\system32")
+* Values with system files in rare locations (e.g. backup locations: ``\\backupserv\sysbackup20171119\Windows\system32``)
 * Keyboard layout preloads that are typical for the region of the system (e.g. "Chinese keyboard layout" on a system in Shanghai)
-* Values that start with "4d5a" by pure chance
+* Values that start with ``4d5a`` by pure chance
 
 Attribute Evaluation
 --------------------

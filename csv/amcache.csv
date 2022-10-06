@@ -1,0 +1,5 @@
+Attribute;Question;Answer;Indication;Weight
+**ELEMENT**;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;
+**MD5/SHA1/SHA256**;See chapter 32.2 `Hash Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#hash-checks>`_ for generic checks on hashes;;;
+**FIRST_RUN**;Did the file run the first time on a Sunday?;Yes;Bad;Medium
+**FIRST_RUN**;Did the file run the first time at night between 00:00 and 06:00 am in the early morning?;Yes;Bad;Medium

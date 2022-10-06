@@ -1,0 +1,3 @@
+Attribute;Question;Answer;Indication;Weight
+**USER**;Does the user name look suspicious to a human eye? (e.g. ``abc``, ``123``, ``adm123``, ``suser``, ``bckdr``, ``master``, ``access``);Yes;Good;Medium
+;;No;Bad;Medium

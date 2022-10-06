@@ -1,0 +1,14 @@
+Attribute;Question;Answer;Indication;Weight
+**MD5/SHA1/SHA256**;What does the Virustotal.com check show?;Unknown;;
+;;Suspicious (> 2 matches);Bad;High
+;;Malicious (> 10 matches);Bad;High
+**MD5/SHA1/SHA256**;Does Virustotal show other suspicious names in the ``Additional Information`` tab – e.g. file names with ``.vir`` or ``.virobj`` extension, or file names that are hashes;Yes;Bad;Low
+**MD5/SHA1/SHA256**;Is ``first submission`` on Virustotal very far in the past? (>7 years);Yes;Good;Low
+**MD5/SHA1/SHA256**;Are there any negative votes or comments on Virustotal?;Yes;Bad;Medium
+**MD5/SHA1/SHA256**;Does at least one matching AV signature on Virustotal contain one of the following keywords: ``Hack``, ``Scan``, ``Dump``, ``Password``, ``Webshell``;Yes;Bad;High
+**MD5/SHA1/SHA256**;Is the file part of the Microsoft software catalogue? (Virustotal shows that on a green bar above the analysis);Yes;Good;High
+**MD5/SHA1/SHA256**;Does Virustotal show the bar "probably harmless"?;Yes;Good;High
+**MD5/SHA1/SHA256**;Does the file has a valid software signature from a trusted vendor?;Yes;Good;Medium
+**MD5/SHA1/SHA256**;Does the listed ``File names`` contain only legitimate names?  (e.g. ``javaw.exe``, ``java.exe``);Yes;Good;Low 
+**MD5/SHA1/SHA256**;Does the listed ``File names`` contain hash values?;Yes;Bad;Low
+**MD5/SHA1/SHA256**;Does the Portable Executable (PE, EXE) file have a very old compilation time stamp? (> 10 years);Yes;Good;Low

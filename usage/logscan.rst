@@ -1,7 +1,7 @@
 LogScan
 ===========
 
-The "LogScan" module processes "\*.log" files found on disk line by line (It performs some checks to avoid scanning files that are not ASCII log files, but something else that uses the \*.log extension).
+The **LogScan** module processes ``*.log`` files found on disk line by line (It performs some checks to avoid scanning files that are not ASCII log files, but something else that uses the ``*.log`` extension).
 Each log line is checked with all file name and keyword IOCs and scanned with the "keyword" and "log" type YARA rules. 
 
 Samples
@@ -19,7 +19,7 @@ Typical False Positives
 -----------------------
 
 * Web vulnerability scans trying to access files that do not exist (HTTP Error 404)
-* RoboCopy logs that list hack tools like "nmap.exe" or "ncat.exe"
+* RoboCopy logs that list hack tools like ``nmap.exe`` or ``ncat.exe``
 
 Attribute Evaluation
 --------------------

@@ -1,7 +1,7 @@
 WMIPersistence
 ==============
 
-It is difficult to detect malicious WMI persistence objects. The detection methods are based on whitelists and a blacklist with keywords from APT reports. The whitelists are extended every time our analysts detect false positives in a customer's environment. The black lists are extended every time an APT report states a certain WMI persistence method with specific event filer or event file name. 
+It is difficult to detect malicious **WMIPersistence** objects. The detection methods are based on whitelists and a blacklist with keywords from APT reports. The whitelists are extended every time our analysts detect false positives in a customer's environment. The black lists are extended every time an APT report states a certain WMI persistence method with specific event filer or event file name. 
 
 References
 ----------

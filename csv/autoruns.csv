@@ -1,7 +1,7 @@
 Attribute;Question;Answer;Indication;Weight
-MESSAGE;Does it contain "New or changed autoruns element" (Note: This is just a change notice and can be relevant on critical systems or under certain circumstances);Yes;Good;Low
-IMAGE_PATH;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;
-PUBLISHER;Is the field empty;Yes;Bad;Low
-DESC;Is the field empty;Yes;Bad;Low
-MD5/SHA1/SHA256;Is the hash field empty (this means: File was not found during the scan);Yes;;
-;See chapter 32.2 `Hash Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#hash-checks>`_ for generic checks on hashes;;;
+**MESSAGE**;Does it contain "New or changed autoruns element" (Note: This is just a change notice and can be relevant on critical systems or under certain circumstances);Yes;Good;Low
+**IMAGE_PATH**;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;
+**PUBLISHER**;Is the field empty;Yes;Bad;Low
+**DESC**;Is the field empty;Yes;Bad;Low
+**MD5/SHA1/SHA256**;Is the hash field empty (this means: File was not found during the scan);Yes;;
+**MD5/SHA1/SHA256**;See chapter 32.2 `Hash Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#hash-checks>`_ for generic checks on hashes;;;

@@ -1,0 +1,7 @@
+Attribute;Question;Answer;Indication;Weight
+**ELEMENT**;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;
+**MD5/SHA1/SHA256**;See chapter 32.2 `Hash Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#hash-checks>`_ for generic checks on hashes;;;
+**SERVICE_NAME**;Is the service name a random ID? (e.g. ``98ncjs87e``, ``{993B4A05-7C9E-4DA7-9052-4192A3B96F21}``);Yes;Bad;Medium
+**START_TYPE**;Is the start-type ``ONDEMAND*``?;Yes;Good;Low
+**MODIFIED**;Has the service been modified in a suspicious time frame? (Sunday night between 00:00 am and 06:00 am);Yes;Bad;Medium
+**MESSAGE**;Does a YARA rule match on the service entry?;Yes;Bad;Medium

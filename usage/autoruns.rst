@@ -1,7 +1,7 @@
 Autoruns
 ========
 
-The Autoruns module makes use of the command line version of SysInternals Autoruns. It parses the tools output and integrates the output in each log message.
+The **Autoruns** module makes use of the command line version of SysInternals Autoruns. It parses the tools output and integrates the output in each log message.
 
 References
 ----------

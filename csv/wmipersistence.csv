@@ -1,5 +1,5 @@
 Attribute;Question;Answer;Indication;Weight
-EVENTFILTER;Does the Eventfilter content related to the EventFilterName? (e.g. "HP_TempSensorFailureEvent" and "select * from HP_TempSensorFailureEvent");Yes;Good;Medium
+**EVENTFILTER**;Does the Eventfilter content related to the EventFilterName? (e.g. ``HP_TempSensorFailureEvent`` and ``select * from HP_TempSensorFailureEvent``);Yes;Good;Medium
 ;;No;Bad;Medium
-EVENTFILTERNAME;Does a google search on the EventFilerName show no result at all?;Yes;Bad;Medium
-;Does a google search on the EventFilterName result in results that seem legitimate?;Yes;Good;Medium
+**EVENTFILTERNAME**;Does a google search on the EventFilerName show no result at all?;Yes;Bad;Medium
+**EVENTFILTERNAME**;Does a google search on the EventFilterName result in results that seem legitimate?;Yes;Good;Medium

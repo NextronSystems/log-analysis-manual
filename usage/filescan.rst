@@ -1,7 +1,7 @@
 FileScan
 ========
 
-Events reported by the "FileScan" module typically originate from the file system scan. But due to the "Message Enrichment" feature, other modules that include events with full “file path” strings may also produce events of this type (e.g. module "SHIMCache", "Eventlog").
+Events reported by the **FileScan** module typically originate from the file system scan. But due to the "Message Enrichment" feature, other modules that include events with full “file path” strings may also produce events of this type (e.g. module "SHIMCache", "Eventlog").
 
 Filescan events are rich in attributes and extra information.
 
@@ -17,10 +17,10 @@ Typical False Positives
 
 * Legitimate files matching a filename regular expression IOC
 * YARA rules matching THOR reports or clear-text signatures from former scans have been left on the system
-* Dual use tools used by administration (e.g. "nmap.exe", "ncat.exe")
-* Legitimate tools moved to the Recycle Bin and therefore detected with wrong name (e.g. "Psexec" as "$IR4HB6A.exe")
+* Dual use tools used by administration (e.g. ``nmap.exe``, ``ncat.exe``)
+* Legitimate tools moved to the Recycle Bin and therefore detected with wrong name (e.g. ``Psexec`` as ``$IR4HB6A.exe``)
 * Legitimate but very old files that trigger the file size anomaly
-* Old and rare versions of legitimate programs that trigger the file signature anomalies (that often happens with "javaw.exe" / "java.exe")
+* Old and rare versions of legitimate programs that trigger the file signature anomalies (that often happens with ``javaw.exe`` / ``java.exe``)
 
 Attribute Evaluation
 --------------------

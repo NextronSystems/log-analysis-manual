@@ -1,6 +1,6 @@
 Attribute;Question;Answer;Indication;Weight
-FILE;Does the path include a timestamp that indicates very old data? (e.g. C:\wwwroot\logs\2003-04-17-access.log);Yes;Good;Medium
-ELEMENT;Does an investigation for the remote IP address return negative or suspicious results?;Yes;Bad;High
-;Does the web server access log line include a response code 404? (404: file not found, see the example above);Yes;Good;Medium
-;Does the element show an Antivirus alert? Antivirus alerts often go unnoticed / it is recommended to include them in the reports;Yes;Bad;Medium
-;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;
+**FILE**;Does the path include a timestamp that indicates very old data? (e.g. ``C:\wwwroot\logs\2003-04-17-access.log``);Yes;Good;Medium
+**ELEMENT**;Does an investigation for the remote IP address return negative or suspicious results?;Yes;Bad;High
+**ELEMENT**;Does the web server access log line include a response code 404? (404: file not found, see the example above);Yes;Good;Medium
+**ELEMENT**;Does the element show an Antivirus alert? Antivirus alerts often go unnoticed / it is recommended to include them in the reports;Yes;Bad;Medium
+**ELEMENT**;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;

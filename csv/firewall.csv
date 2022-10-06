@@ -1,0 +1,3 @@
+Attribute;Question;Answer;Indication;Weight
+**RULE_NAME**;Does the name look suspicious?;Yes;Bad;Low
+**PORT**;Does the port relate to the rule name? (e.g. ``Port 8080`` to ``Apache``, ``Port 2222`` to ``Bitvise SSH Daemon``);Yes;Good;Medium
