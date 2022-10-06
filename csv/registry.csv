@@ -1,0 +1,5 @@
+Attribute;Question;Answer;Indication;Weight
+MATCHED_STRINGS;Do the strings match on a suspicious program location and is that location legitimate?;Yes;Good;Medium
+;;No;Bad;Medium
+NAME;Does the rule name include the string "RDP_Preload" and the respective keyboard layout is completely implausible on that end system? (e.g. Chinese keyboard layout on system in Italy with Italian admins only);Yes;Bad;Medium
+;Does the rule name include the string "RDP_Preload" and the respective keyboard layout is plausible on that end system? (e.g. Chinese keyboard layout on system in Shanghai);Yes;Good;Medium
