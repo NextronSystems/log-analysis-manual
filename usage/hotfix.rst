@@ -13,4 +13,4 @@ Samples
 Typical False Positives
 -----------------------
 
-* THOR failed to evaluate the modules on the system and didn't return a single hotfix. In these cases, THOR reports "No Hotfixes installed or no hotfix information available" 
+* THOR failed to evaluate the modules on the system and didn't return a single hotfix. In these cases, THOR reports `No Hotfixes installed or no hotfix information available`.

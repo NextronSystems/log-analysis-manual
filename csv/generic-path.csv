@@ -2,8 +2,8 @@ Attribute;Question;Answer;Indication;Weight
 **FILE**;Is the file located in a temporary directory? (e.g. ``C:\Temp, C:\Users\user1\AppData\Local\Temp``);Yes;Bad;Medium
 **FILE**;Does the path contain elements in a local language? (e.g. ``…\Datensicherung``, ``C:\Progs\Zeiterfassung\ze.exe``);Yes;Good;Medium
 **FILE**;Does the file have matches on other systems as well?;Yes, more than **1**;;
-**FILE**;;Yes, on more than **10**;Good;Medium
-**FILE**;;Yes, on more than **100**;Good;High
+;;Yes, on more than **10**;Good;Medium
+;;Yes, on more than **100**;Good;High
 **FILE**;Is the file name known on Google? (results point to goodware or known Windows file names);Yes;Good;Medium
 **FILE**;Is the file name known on Google and results point to malware or hack tools?;Yes;Bad;Medium
 **FILE**;Does an exact Google search for the program path return no results?;Yes;Bad;Low

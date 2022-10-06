@@ -6,7 +6,7 @@ Different checks are performed in the **ProcessCheck** module. Some of them chec
 References
 ----------
 
-`Nasreddine Bencherchali <https://nasbench.medium.com/windows-system-processes-an-overview-for-blue-teams-42fa7a617920>`_
+`nasbench.medium.com <https://nasbench.medium.com/windows-system-processes-an-overview-for-blue-teams-42fa7a617920>`_
 
 Samples
 -------
