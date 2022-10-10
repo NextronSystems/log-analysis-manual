@@ -22,29 +22,6 @@ PEStudio
 | Windows tool that helps in the initial and static assessment of a file Sample (if available)
 | `www.winitor.com <https://www.winitor.com/>`_
 
-PassiveTotal
-------------
-
-| Used for: Domains, IPs
-| `www.passivetotal.org <https://www.passivetotal.org/>`_
-
-Cymon
---------
-
-| Cymon is the largest open tracker of malware, phishing, botnets, spam, and more.
-| `cymon.io <https://cymon.io/>`_
-
-Censys
---------
-
-| Censys is a search engine that enables researchers to ask questions about the hosts and networks that compose the Internet. 
-| `censys.io <https://censys.io/>`_
-
-Threat Crowd
-------------
-
-| ThreatCrowd is a system for finding and researching artefacts relating to cyber threats.
-| `www.threatcrowd.org <https://www.threatcrowd.org/>`_
 
 APT Custom Search
 -----------------
@@ -58,8 +35,15 @@ Hybrid Analysis
 | Used for: Samples Upload, search for methods and keywords
 | `www.hybrid-analysis.com <https://www.hybrid-analysis.com/>`_
 
+any.run
+-------
+
+| Used for Sample Upload and more
+| `any.run <https://any.run/>`_
+
 Automatic Hash Checks
 ---------------------
+
 
 You can use the Python script ``munin.py`` to batch process lists of Hash values or even complete THOR log files as the script automatically extracts the relevant values from each line. 
 The best option is to use the ``*.csv`` files produced after a THOR run and use them as input for the script. 
