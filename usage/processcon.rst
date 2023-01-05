@@ -1,7 +1,9 @@
 ProcessConnection
 =================
 
-The **ProcessConnections** module checks the network connections of a process and generates alerts and warnings based on C2 signature matches and suspicious GEO IP lookups.
+The ``ProcessConnections`` module checks the network connections of
+a process and generates alerts and warnings based on C2 signature
+matches and suspicious GEO IP lookups.
 
 Samples
 -------

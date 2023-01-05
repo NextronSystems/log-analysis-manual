@@ -1,7 +1,9 @@
 GroupsXML
 =========
 
-The **GroupsXML** module is a module that reports on critical security issues related to decryptable passwords in group policy files, that are readable for anyone within a Windows Domain. 
+The ``GroupsXML`` module is a module that reports on critical security
+issues related to decryptable passwords in group policy files, that
+are readable for anyone within a Windows Domain. 
 
 References
 ----------

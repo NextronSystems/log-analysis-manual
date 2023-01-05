@@ -1,9 +1,16 @@
 WER
 =========
 
-The **WER** (Windows Error Reporting) module analyses program crash files and checks for special crashes caused by exploits and filename IOC signature matches in the application path. Software can break, so applications tend to crash, hack tools and exploits crash as well. Even if the attackers completely removed their tools from a system, a crashed exploit code, scanner, password dumper or backdoor will still be visible in the Windows Error Reports.
+The ``WER`` (Windows Error Reporting) module analyses program crash files and checks 
+for special crashes caused by exploits and filename IOC signature matches in the 
+application path. Software can break, so applications tend to crash, hack tools 
+and exploits crash as well. Even if the attackers completely removed their tools 
+from a system, a crashed exploit code, scanner, password dumper or backdoor will 
+still be visible in the Windows Error Reports.
 
-(Side note: Microsoft's own IR team makes use of the WER file analysis with their own tool named **WOLF**)
+.. note::
+
+    Microsoft's own Incident Response team makes use of the WER file analysis with their own tool named ``WOLF``
 
 Samples
 -------

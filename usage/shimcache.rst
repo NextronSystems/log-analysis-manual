@@ -1,11 +1,17 @@
 SHIMcache
 =========
 
-The **SHIM Cache** or AppCompatCache (Application Compatibility Cache) is a special Registry cache containing valuable information, because the cache tracks metadata for binary files that were executed.
+The ``SHIM Cache`` or AppCompatCache (Application Compatibility Cache) is a 
+special Registry cache containing valuable information, because the cache 
+tracks metadata for binary files that were executed.
 
-It includes the full path to the executable file image and a timestamp, which could be the date of the last execution or the creation time stamp of the file, depending on the Windows version.
+It includes the full path to the executable file image and a timestamp, 
+which could be the date of the last execution or the creation time stamp 
+of the file, depending on the Windows version.
 
-In cases where the executed file is still present on disk, THOR calculates hashes and includes them in the log message (message enrichment). If you can’t find a hash in the log line, this means that THOR wasn’t able to find the file on disk anymore.
+In cases where the executed file is still present on disk, THOR calculates 
+hashes and includes them in the log message (message enrichment). If you 
+can't find a hash in the log line, this means that THOR wasn't able to find the file on disk anymore.
 
 References
 ----------

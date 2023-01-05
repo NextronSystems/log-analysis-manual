@@ -1,9 +1,13 @@
 DeepDive
 ========
 
-A **DeepDive** on memory images or disk space cannot be analysed by THOR events alone. You typically need the memory dumps or restored chunks to evaluate the findings. This typically takes a lot more time, know-how and effort to complete.
+A ``DeepDive`` on memory images or disk space cannot be analysed
+by THOR events alone. You typically need the memory dumps or
+restored chunks to evaluate the findings. This typically takes
+a lot more time, know-how and effort to complete.
 
-We recommend the analysis of DeepDive module events only in case other indicators give a sufficient initial suspicion. 
+We recommend the analysis of DeepDive module events only in case
+other indicators give a sufficient initial suspicion. 
 
 Samples
 -------

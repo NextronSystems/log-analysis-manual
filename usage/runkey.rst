@@ -1,7 +1,7 @@
 RunKeyCheck
 ===========
 
-The **RunKeyCheck** module processes entries in the RUN Key.  
+The ``RunKeyCheck`` module processes entries in the RUN Key.  
 
 Samples
 -------

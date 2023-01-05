@@ -1,7 +1,8 @@
 ScheduledTasks
 ==============
 
-The **ScheduledTasks** module analyses the local user at jobs and just lists them in "Info" level messages and applies the global string check on the command line. 
+The ``ScheduledTasks`` module analyses the local user at jobs and just lists 
+them in "Info" level messages and applies the global string check on the command line. 
 
 Samples
 -------

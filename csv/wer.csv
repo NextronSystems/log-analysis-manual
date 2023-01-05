@@ -1,3 +1,3 @@
 Attribute;Question;Answer;Indication;Weight
-**APPPATH**;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;
+**APPPATH**;See chapter :ref:`usage/generic:file path checks`;;;
 **MESSAGE**;Does the message contain a CVE number?;Yes;Bad;Medium

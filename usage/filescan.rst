@@ -1,7 +1,10 @@
 FileScan
 ========
 
-Events reported by the **FileScan** module typically originate from the file system scan. But due to the "Message Enrichment" feature, other modules that include events with full “file path” strings may also produce events of this type (e.g. module "SHIMCache", "Eventlog").
+Events reported by the ``FileScan`` module typically originate
+from the file system scan. But due to the "Message Enrichment"
+feature, other modules that include events with full "file path"
+strings may also produce events of this type (e.g. module ``SHIMCache``, ``Eventlog``).
 
 Filescan events are rich in attributes and extra information.
 

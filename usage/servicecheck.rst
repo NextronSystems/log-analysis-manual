@@ -1,7 +1,9 @@
 ServiceCheck
 ============
 
-The **ServiceCheck** module evaluates all registered local Windows services. It detects suspicious service entries by different anomaly checks, blacklisted keywords and reports file path anomalies. 
+The ``ServiceCheck`` module evaluates all registered local Windows services. 
+It detects suspicious service entries by different anomaly checks, blacklisted 
+keywords and reports file path anomalies. 
 
 Samples
 -------

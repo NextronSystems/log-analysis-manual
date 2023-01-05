@@ -1,7 +1,8 @@
 AtJobs
 ========
 
-The **AtJobs** module analyses the local user jobs and just lists them in "Info" level messages and applies the global string check on the command line.
+The ``AtJobs`` module analyses the local user jobs and just lists
+them in "Info" level messages and applies the global string check on the command line.
 
 Samples
 -------

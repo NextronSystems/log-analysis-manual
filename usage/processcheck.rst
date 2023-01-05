@@ -1,7 +1,11 @@
 ProcessCheck
 ============
 
-Different checks are performed in the **ProcessCheck** module. Some of them check the process characteristics such as parent/child relations, process priorities and executable file locations for anomalies. Other checks evaluate the processes network connections and YARA checks match on the process memory. 
+Different checks are performed in the ``ProcessCheck`` module. Some of
+them check the process characteristics such as parent/child relations,
+process priorities and executable file locations for anomalies. Other
+checks evaluate the processes network connections and YARA checks
+match on the process memory. 
 
 References
 ----------

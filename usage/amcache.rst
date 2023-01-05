@@ -1,7 +1,9 @@
 AmCache
 =======
 
-The **AmCache** module processes entries in the AmCache of the system. In contrast to the SHIMCache entries, AmCache entries contain a SHA1 hash value that can be used to determine the exact program that was executed on the end system. 
+The ``AmCache`` module processes entries in the AmCache of the system.
+In contrast to the SHIMCache entries, AmCache entries contain a SHA1
+hash value that can be used to determine the exact program that was executed on the end system. 
 
 References
 ----------

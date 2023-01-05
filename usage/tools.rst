@@ -48,10 +48,10 @@ Automatic Hash Checks
 You can use the Python script ``munin.py`` to batch process lists of Hash values or even complete THOR log files as the script automatically extracts the relevant values from each line. 
 The best option is to use the ``*.csv`` files produced after a THOR run and use them as input for the script. 
 
-.. code::bash
+.. code-block:: console
 
-	cat *.csv >> all-hashes.csv
-	python munin.py –i config.ini –f all-hashes.csv 
+	user@unix~:$ cat *.csv >> all-hashes.csv
+	user@unix~:$ python munin.py –i config.ini –f all-hashes.csv 
 
 `github.com/Neo23x0/munin <https://github.com/Neo23x0/munin>`_
 

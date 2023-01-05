@@ -1,7 +1,7 @@
 Hosts
 =========
 
-The **Hosts** module evaluates the entries in the local hosts file.
+The ``Hosts`` module evaluates the entries in the local hosts file.
 
 References
 ----------

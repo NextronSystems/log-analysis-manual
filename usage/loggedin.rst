@@ -1,7 +1,7 @@
 LoggedIn
 ========
 
-The **LoggedIn** module analyses all currently logged in users and analyses their names.
+The ``LoggedIn`` module analyses all currently logged in users and analyses their names.
 
 Samples
 -------

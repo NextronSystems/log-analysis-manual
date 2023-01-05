@@ -1,7 +1,9 @@
 ProcessHandles
 ==============
 
-The **ProcessHandles** module is a sub module of the **ProcessCheck** module that analyses the handles of each process. The module makes use of the SysInternals ``handle.exe`` tool that can be placed in the ``./tools`` sub folder.    
+The ``ProcessHandles`` module is a sub module of the ``ProcessCheck`` module that
+analyses the handles of each process. The module makes use of the SysInternals
+``handle.exe`` tool that can be placed in the ``./tools`` sub folder.    
 
 Samples
 -------

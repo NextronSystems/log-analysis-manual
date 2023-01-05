@@ -1,7 +1,8 @@
 Registry
 ========
 
-**Registry** matches can be caused by different signature types: File name IOCs, keywords or YARA signatures matches.
+``Registry`` matches can be caused by different signature types: 
+File name IOCs, keywords or YARA signatures matches.
 
 Samples
 -------

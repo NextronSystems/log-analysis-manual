@@ -1,7 +1,7 @@
 HotfixCheck
 ===========
 
-The **HotFixCheck** module analyses the installed hotfixes on the end system.
+The ``HotFixCheck`` module analyses the installed hotfixes on the end system.
 
 Samples
 -------

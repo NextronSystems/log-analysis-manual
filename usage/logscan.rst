@@ -1,8 +1,11 @@
 LogScan
 ===========
 
-The **LogScan** module processes ``*.log`` files found on disk line by line (It performs some checks to avoid scanning files that are not ASCII log files, but something else that uses the ``*.log`` extension).
-Each log line is checked with all file name and keyword IOCs and scanned with the "keyword" and "log" type YARA rules. 
+The ``LogScan`` module processes ``*.log`` files found on disk line by
+line (It performs some checks to avoid scanning files that are not ASCII
+log files, but something else that uses the ``*.log`` extension).
+Each log line is checked with all file name and keyword IOCs and
+scanned with the "keyword" and "log" type YARA rules. 
 
 Samples
 -------

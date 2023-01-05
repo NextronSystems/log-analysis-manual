@@ -1,7 +1,8 @@
 Autoruns
 ========
 
-The **Autoruns** module makes use of the command line version of SysInternals Autoruns. It parses the tools output and integrates the output in each log message.
+The ``Autoruns`` module makes use of the command line version of SysInternals
+Autoruns. It parses the tools output and integrates the output in each log message.
 
 References
 ----------
@@ -11,7 +12,9 @@ References
 Issues
 ------
 
-The hash generation for the SHA1 hash in Autorunsc.exe is not reliable. The reason for this is unknown. The issue has been reported but hasn't been fixed so far. The value is therefore suppressed.
+The hash generation for the SHA1 hash in Autorunsc.exe is not reliable.
+The reason for this is unknown. The issue has been reported but hasn't
+been fixed so far. The value is therefore suppressed.
 
 Samples
 -------

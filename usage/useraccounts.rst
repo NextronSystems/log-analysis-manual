@@ -1,8 +1,11 @@
 UserAccounts
 ============
 
-The **UserAccounts** module analyses the local user database. It checks for suspicious user names, suspicious members in the ``Administrators`` group, activated guest accounts, user accounts created on Sundays and reports recently logged in users.
-It applies the ``hot time frame`` parameter (``-f``) if given and reports suspicious account activity on a given set of dates. 
+The ``UserAccounts`` module analyses the local user database. It checks for
+suspicious user names, suspicious members in the ``Administrators`` group,
+activated guest accounts, user accounts created on Sundays and reports recently
+logged in users. It applies the ``hot time frame`` parameter (``-f``) if given
+and reports suspicious account activity on a given set of dates. 
 
 Samples
 -------

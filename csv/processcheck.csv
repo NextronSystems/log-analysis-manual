@@ -1,6 +1,6 @@
 Attribute;Question;Answer;Indication;Weight
 **COMMAND**;Is the executable a well-known SysInternals tool?;Yes;Good;Medium
-**PATH**;See chapter 32.1 `File Path Checks <https://log-analysis-manual.nextron-systems.com/en/latest/usage/generic.html#file-path-checks>`_;;;
+**PATH**;See chapter :ref:`usage/generic:file path checks`;;;
 **PARENT**;Is the parent of the suspicious process a Microsoft Office program?;Yes;Bad;High
 **OWNER**;If the owner of the suspicious process starts with ``IWAM_``, ``IUSR_`` or ``IIS_``?;Yes;Bad;Medium
 **MESSAGE**;Did the YARA rule match on ``IEXPLORE.EXE``, ``VMWARE tools process memory``? (Note: the Internet Explorer and VMWare tools process memory is prone to false positives);Yes;Good;Low

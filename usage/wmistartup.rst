@@ -1,7 +1,10 @@
 WMIStartup
 ==========
 
-The **WMIStartup** module uses different WMI queries to retrieve information on elements that could be used for persistence. It is very likely that findings by this module also appear in other modules (e.g. **Autoruns**) in a different form, because it just uses a different method to look at the same elements.  
+The ``WMIStartup`` module uses different WMI queries to retrieve information
+on elements that could be used for persistence. It is very likely that findings
+by this module also appear in other modules (e.g. ``Autoruns``) in a different
+form, because it just uses a different method to look at the same elements.  
 
 Samples
 -------

@@ -1,7 +1,8 @@
 Other Modules
 =============
 
-Messages from other modules like **Rootkit**, **SkeletonKey**, **ReginFS** should always be considered relevant and handled with high priority. 
+Messages from other modules like ``Rootkit``, ``SkeletonKey``, ``ReginFS``
+should always be considered relevant and handled with high priority. 
 
 Samples
 -------

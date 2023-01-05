@@ -1,7 +1,8 @@
 Firewall
 ========
 
-The **Firewall** module evaluates all local Windows firewall rules and tries to detect suspicious entries by using white- and blacklists.
+The ``Firewall`` module evaluates all local Windows firewall rules
+and tries to detect suspicious entries by using white- and blacklists.
 
 Samples
 -------

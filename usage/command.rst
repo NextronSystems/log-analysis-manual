@@ -1,7 +1,8 @@
 CommandCheck
 ============
 
-The **CommandCheck** module is a meta module that analyses full command lines (path, executable, parameters) in different modules.
+The ``CommandCheck`` module is a meta module that analyses
+full command lines (path, executable, parameters) in different modules.
 
 Samples
 -------

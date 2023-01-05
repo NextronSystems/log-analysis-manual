@@ -1,7 +1,9 @@
 DNSCache
 ========
 
-The **DNSCache** module evaluates the entries of the local DNS cache. It compares the entries with known C2 servers and reports suspicious entries based on some regular expression checks.  
+The ``DNSCache`` module evaluates the entries of the local DNS cache.
+It compares the entries with known C2 servers and reports suspicious
+entries based on some regular expression checks.  
 
 Samples
 -------
