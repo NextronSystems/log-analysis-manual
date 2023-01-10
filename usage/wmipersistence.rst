@@ -10,23 +10,41 @@ states a certain WMI persistence method with specific event filer or event file 
 References
 ----------
 
-`Github <https://github.com/darkquasar/WMI_Persistence>`_
+- `Github <https://github.com/darkquasar/WMI_Persistence>`_
 
 Samples
 -------
 
-.. code::
+.. code-block:: none
 
-	Aug 26 23:16:41 server44.local.net/10.23.3.1 THOR: Warning: MODULE: WMIPersistence MESSAGE: Suspicious WMI element KEY: Binding 91 FILTERTYPE: HealthDriverEventConsumer EVENTFILTERNAME: HP_TempSensorFailureEvent EVENTCONSUMER: Health Event Consumer EVENTFILTER: select * from HP_TempSensorFailureEvent EVENTCONSUMER: - SCORE: 75
+	Aug 26 23:16:41 server44.local.net/10.23.3.1
+        THOR: Warning: MODULE: WMIPersistence
+        MESSAGE: Suspicious WMI element
+        KEY: Binding 91
+        FILTERTYPE: HealthDriverEventConsumer
+        EVENTFILTERNAME: HP_TempSensorFailureEvent
+        EVENTCONSUMER: Health Event Consumer
+        EVENTFILTER: select * from HP_TempSensorFailureEvent
+        EVENTCONSUMER: -
+        SCORE: 75
 
-.. code::
+.. code-block:: none
 
-	Aug 26 23:16:41 server44.local.net/1.253.103.134 THOR: Warning: MODULE: WMIPersistence MESSAGE: Suspicious WMI element KEY: Binding 93 FILTERTYPE: HealthDriverEventConsumer EVENTFILTERNAME: HP_ASRStateChangeEvent EVENTCONSUMER: Health Event Consumer EVENTFILTER: select * from HP_ASRStateChangeEvent EVENTCONSUMER: - SCORE: 75
+	Aug 26 23:16:41 server44.local.net/1.253.103.134
+        THOR: Warning: MODULE: WMIPersistence
+        MESSAGE: Suspicious WMI element
+        KEY: Binding 93
+        FILTERTYPE: HealthDriverEventConsumer
+        EVENTFILTERNAME: HP_ASRStateChangeEvent
+        EVENTCONSUMER: Health Event Consumer
+        EVENTFILTER: select * from HP_ASRStateChangeEvent
+        EVENTCONSUMER: -
+        SCORE: 75
 
 Typical False Positives
 -----------------------
 
-* Legitimate entries caused by system management software (e.g. HP services)
+- Legitimate entries caused by system management software (e.g. HP services)
 
 Attribute Evaluation
 --------------------

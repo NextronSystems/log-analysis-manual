@@ -39,8 +39,9 @@ The checks listed in the following table apply to any file path string in many d
 Hash Checks
 -----------
 
-| We recommend using Virustotal for the analysis of Hash values.
-| `www.virustotal.com <https://www.virustotal.com/>`_
+We recommend using Virustotal for the analysis of Hash values.
+
+- `www.virustotal.com <https://www.virustotal.com/>`_
 
 The checks listed in the following table apply to any hash value reported in many different modules.
 

@@ -7,12 +7,12 @@ them in "Info" level messages and applies the global string check on the command
 Samples
 -------
 
-TBT
+- TBT
 
 Typical False Positives
 -----------------------
 
-* Software updater
+- Software updater
 
 Attribute Evaluation
 --------------------

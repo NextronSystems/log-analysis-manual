@@ -23,13 +23,13 @@ pre-qualified by first level analysts.
 Recommended / 2nd Level
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* Forensic Analysis
-* Incident Response Specialist
-* Malware Analyst
+- Forensic Analysis
+- Incident Response Specialist
+- Malware Analyst
 
 Required / 1st Level
 ~~~~~~~~~~~~~~~~~~~~
 
-* Professional with security background
-* Knowledge of Microsoft Windows internals (Administration, Development)
-* Security analyst with Antivirus log analysis background
+- Professional with security background
+- Knowledge of Microsoft Windows internals (Administration, Development)
+- Security analyst with Antivirus log analysis background
