@@ -1,3 +1,2 @@
 sphinx
 sphinx-rtd-theme
-readthedocs-sphinx-ext<2.3
