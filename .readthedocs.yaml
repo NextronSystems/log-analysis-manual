@@ -7,7 +7,7 @@ build:
 
   python:
     install:
-      - requirements: docs/requirements.txt
+      - requirements: requirements.txt
 
 # Build all formats
 formats: all
