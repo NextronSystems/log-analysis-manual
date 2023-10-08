@@ -5,9 +5,6 @@ build:
   tools:
     python: "3.11"
 
-  python:
-    install:
-      - requirements: requirements.txt
-
-# Build all formats
-formats: all
+ python:
+   install:
+     - requirements: requirements.txt
