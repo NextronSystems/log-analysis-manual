@@ -1,2 +1,4 @@
 code
 _build
+.venv/
+.vscode/
