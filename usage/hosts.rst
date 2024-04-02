@@ -6,7 +6,7 @@ The ``Hosts`` module evaluates the entries in the local hosts file.
 References
 ----------
 
-- `blog.malwarebytes.com <https://blog.malwarebytes.com/cybercrime/2016/09/hosts-file-hijacks/>`_
+- `blog.malwarebytes.com <https://www.malwarebytes.com/blog/news/2016/09/hosts-file-hijacks>`_
 
 Samples
 -------

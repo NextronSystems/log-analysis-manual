@@ -7,7 +7,7 @@ VirusTotal
 ----------
 
 | Used for: File Hashes, Domains, IPs, File Names
-| `www.virustotal.com <https://www.virustotal.com/>`_
+| `www.virustotal.com <https://www.virustotal.com/gui/>`_
 
 | Also search for IPs and Domain Names – Examples:
 | :samp:`https://www.virustotal.com/en/domain/DOMAIN/information/`
@@ -27,7 +27,7 @@ APT Custom Search
 -----------------
 
 | Custom Search Engine for APT related Sites
-| `cse.google.com <https://cse.google.com/cse/publicurl?cx=003248445720253387346:turlh5vi4xc>`_
+| `cse.google.com <https://cse.google.com/cse?cx=003248445720253387346:turlh5vi4xc>`_
 
 Hybrid Analysis
 ---------------
@@ -54,7 +54,3 @@ The best option is to use the ``*.csv`` files produced after a THOR run and use 
 	user@unix~:$ python munin.py –i config.ini –f all-hashes.csv 
 
 `github.com/Neo23x0/munin <https://github.com/Neo23x0/munin>`_
-
-.. figure:: ../images/munin.png
-   :target: ../_images/munin.png
-   :alt: munin.py

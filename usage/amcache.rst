@@ -9,7 +9,7 @@ References
 ----------
 
 - `www.swiftforensics.com <http://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html>`_
-- `windowsir.blogspot.de <https://windowsir.blogspot.de/2017/03/incorporating-amcache-data-into.html>`_
+- `windowsir.blogspot.de <https://windowsir.blogspot.com/2017/03/incorporating-amcache-data-into.html>`_
 
 Samples
 -------

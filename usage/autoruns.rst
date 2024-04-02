@@ -7,7 +7,7 @@ Autoruns. It parses the tools output and integrates the output in each log messa
 References
 ----------
 
-- `Microsoft Sysinternals <https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns>`_
+- `Microsoft Sysinternals <https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns>`_
 
 Issues
 ------
