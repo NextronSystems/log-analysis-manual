@@ -1,3 +1,5 @@
+import os
+
 project = 'THOR Log Analysis'
 version="1.0"
 copyright = '2024, Nextron Systems GmbH'
@@ -19,6 +21,12 @@ html_logo = "images/html/thor-logo.png"
 html_favicon = "images/html/favicon.ico"
 html_static_path = ['_static']
 html_css_files = ['css/custom.css',]
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+if os.environ.get("READTHEDOCS", "") == "True":
+    if "html_context" not in globals():
+        html_context = {}
+    html_context["READTHEDOCS"] = True
+
 smartquotes = False
 autosectionlabel_prefix_document = True
 autosectionlabel_maxdepth = 2
