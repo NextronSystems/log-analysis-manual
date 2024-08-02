@@ -1,3 +1,3 @@
 Attribute;Question;Answer;Indication;Weight
-**USER**;Does the user name look suspicious to a human eye? (e.g. ``abc``, ``123``, ``adm123``, ``suser``, ``bckdr``, ``master``, ``access``);Yes;Good;Medium
-;;No;Bad;Medium
+**VALUE**;Does the value attribute point to a suspicious location such as ``C:\Users\Public\`` or ``%temp%``? name look suspicious to a human eye?;Yes;Bad;Medium
+**SHA1**;Does the SHA1 value gets flagged by AV scanner on website such as VirusTotal?;Yes;Bad;Medium
