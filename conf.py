@@ -26,7 +26,7 @@ if os.environ.get("READTHEDOCS", "") == "True":
     if "html_context" not in globals():
         html_context = {}
     html_context["READTHEDOCS"] = True
-
+html_show_sourcelink = False
 smartquotes = False
 autosectionlabel_prefix_document = True
 autosectionlabel_maxdepth = 2
