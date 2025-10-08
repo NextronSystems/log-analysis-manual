@@ -33,7 +33,7 @@ Hybrid Analysis
 ---------------
 
 | Used for: Samples Upload, search for methods and keywords
-| `www.hybrid-analysis.com <https://www.hybrid-analysis.com/>`_
+| `hybrid-analysis.com <https://hybrid-analysis.com/>`_
 
 any.run
 -------

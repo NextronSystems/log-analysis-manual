@@ -35,3 +35,6 @@ epub_exclude_files = ['search.html']
 intersphinx_mapping = {'https://docs.python.org/': None}
 # disable epub mimetype warnings
 suppress_warnings = ["epub.unknown_project_files"]
+# Ignore anchors but still check link for the listed sites.
+# E.g., required for websites that add anchors via JavaScript.
+linkcheck_anchors_ignore_for_url = ['^https://www.networkintelligence.ai']
