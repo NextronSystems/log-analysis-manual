@@ -9,7 +9,7 @@ References
 ----------
 
 - `Active Directory Security <https://adsecurity.org/?p=2288>`_
-- `Network Intelligence <https://niiconsulting.com/checkmate/2016/02/hunting-passwords-in-sysvol/>`_
+- `Network Intelligence <https://www.networkintelligence.ai/blogs/hunting-passwords-in-sysvol/>`_
 
 Samples
 -------
