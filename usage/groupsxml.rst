@@ -9,7 +9,7 @@ References
 ----------
 
 - `Active Directory Security <https://adsecurity.org/?p=2288>`_
-- `Network Intelligence <https://www.networkintelligence.ai/blogs/hunting-passwords-in-sysvol/>`_
+- `SentinelOne <https://www.sentinelone.com/blog/credentials-harvesting-from-domain-shares/>`_
 
 Samples
 -------
