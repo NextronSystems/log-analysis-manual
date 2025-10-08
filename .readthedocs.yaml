@@ -7,7 +7,7 @@ build:
     python: "3.11"
   jobs:
     pre_build:
-      - make linkcheck
+	  - python -m sphinx -b linkcheck -D linkcheck_timeout=3 docs/ $READTHEDOCS_OUTPUT/linkcheck
 
 sphinx:
   configuration: conf.py
