@@ -2,7 +2,7 @@ import os
 
 project = 'THOR Log Analysis'
 version="1.0"
-copyright = '2025, Nextron Systems GmbH'
+copyright = '2026, Nextron Systems GmbH'
 author = 'Nextron Systems'
 extensions = [
     'sphinx.ext.autosectionlabel',
@@ -35,3 +35,6 @@ epub_exclude_files = ['search.html']
 intersphinx_mapping = {'https://docs.python.org/': None}
 # disable epub mimetype warnings
 suppress_warnings = ["epub.unknown_project_files"]
+linkcheck_ignore = [
+	r"^https://nasbench.medium.com/windows-system-processes-an-overview-for-blue-teams-42fa7a617920$",
+]
