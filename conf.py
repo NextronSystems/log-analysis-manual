@@ -2,7 +2,7 @@ import os
 
 project = 'THOR Log Analysis'
 version="1.0"
-copyright = '2025, Nextron Systems GmbH'
+copyright = '2026, Nextron Systems GmbH'
 author = 'Nextron Systems'
 extensions = [
     'sphinx.ext.autosectionlabel',
