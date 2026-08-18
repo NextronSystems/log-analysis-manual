@@ -2,9 +2,9 @@ General Recommendations
 =======================
 
 This chapter contains general approaches that apply to all findings regardless
-of the module that reported it. For a deeper understanding of our products (e.g.
-ASGARD Management Center or Analysis Cockpit), we recommend our online Training
-Platform. Please contact us for more information.
+of the module that reported it. For a deeper understanding of our other
+products (e.g. Management Center or Analysis Cockpit), we recommend our online
+Training Platform. Please contact us for more information.
 
 High Quantity Reduces Relevance
 -------------------------------
